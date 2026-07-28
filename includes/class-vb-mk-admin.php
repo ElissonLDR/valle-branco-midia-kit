@@ -49,7 +49,7 @@ class VB_MK_Admin {
 			return;
 		}
 		echo '<p class="description vb-mk-admin-hint">';
-		esc_html_e( 'Defina a imagem do produto na caixa à direita (Imagem do produto). Use Ordem (Atributos da página) para organizar a grade.', 'valle-branco-midia-kit' );
+		esc_html_e( 'Defina a imagem do produto na caixa à direita (Imagem do produto).', 'valle-branco-midia-kit' );
 		echo '</p>';
 	}
 
@@ -65,7 +65,6 @@ class VB_MK_Admin {
 			$new[ $key ] = $label;
 			if ( 'title' === $key ) {
 				$new['vb_mk_thumb'] = __( 'Imagem', 'valle-branco-midia-kit' );
-				$new['vb_mk_ordem'] = __( 'Ordem', 'valle-branco-midia-kit' );
 			}
 		}
 		return $new;
@@ -84,11 +83,6 @@ class VB_MK_Admin {
 			} else {
 				echo '—';
 			}
-			return;
-		}
-		if ( 'vb_mk_ordem' === $col ) {
-			$post = get_post( $post_id );
-			echo esc_html( $post ? (string) (int) $post->menu_order : '0' );
 		}
 	}
 
