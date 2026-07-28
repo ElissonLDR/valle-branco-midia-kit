@@ -1,0 +1,11 @@
+.vb-mk-admin-hint {
+	margin: 8px 0 12px;
+}
+
+.column-vb_mk_thumb img {
+	display: block;
+	width: 48px;
+	height: 48px;
+	object-fit: cover;
+	border-radius: 4px;
+}
