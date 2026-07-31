@@ -3,7 +3,7 @@
  * Plugin Name:       Valle Branco — Mídia Kit
  * Plugin URI:        https://github.com/ElissonLDR/valle-branco-midia-kit
  * Description:       Gerencie produtos do mídia kit (nome e imagem). Shortcode e widget Elementor.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Valle Branco
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'VB_MK_VERSION', '1.0.2' );
+define( 'VB_MK_VERSION', '1.0.3' );
 define( 'VB_MK_FILE', __FILE__ );
 define( 'VB_MK_PATH', plugin_dir_path( __FILE__ ) );
 define( 'VB_MK_URL', plugin_dir_url( __FILE__ ) );

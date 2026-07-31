@@ -1,5 +1,14 @@
+/* Mídia Kit admin — padrão Valle Branco */
 .vb-mk-admin-hint {
 	margin: 8px 0 12px;
+	padding: 12px 14px;
+	max-width: 52rem;
+	background: linear-gradient(135deg, #faf8f4 0%, #fff 70%);
+	border: 1px solid #e2e4e8;
+	border-radius: 12px;
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.5;
 }
 
 .column-vb_mk_thumb img {
@@ -7,5 +16,19 @@
 	width: 48px;
 	height: 48px;
 	object-fit: cover;
-	border-radius: 4px;
+	border-radius: 8px;
+	border: 1px solid #e2e4e8;
+}
+
+.post-type-vb_midia_kit .button-primary {
+	background: #0a3c6b !important;
+	border-color: #0a3c6b !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.post-type-vb_midia_kit .button-primary:hover,
+.post-type-vb_midia_kit .button-primary:focus {
+	background: #072a4d !important;
+	border-color: #072a4d !important;
 }
