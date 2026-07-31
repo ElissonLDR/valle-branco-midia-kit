@@ -28,9 +28,15 @@ class VB_MK_Frontend {
 	 */
 	public function register_assets() {
 		wp_register_style(
+			'vb-mk-fonts',
+			'https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;500;600;700&display=swap',
+			array(),
+			null
+		);
+		wp_register_style(
 			'vb-mk-front',
 			VB_MK_URL . 'public/css/midia-kit.css',
-			array(),
+			array( 'vb-mk-fonts' ),
 			VB_MK_VERSION
 		);
 		wp_register_script(
