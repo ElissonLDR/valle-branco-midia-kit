@@ -232,6 +232,12 @@ $items = array(
 		'order' => 180,
 	),
 	array(
+		'key'   => 'logo-valle-branco',
+		'title' => 'Logo Valle Branco',
+		'files' => array( 'logo-valle-branco.webp', 'Logo-Valle-Branco.webp' ),
+		'order' => 900,
+	),
+	array(
 		'key'   => 'simbolo-b-valle-branco',
 		'title' => 'Símbolo B Valle Branco',
 		'files' => array( 'simbolo-b-valle-branco.png', 'logo.png' ),
