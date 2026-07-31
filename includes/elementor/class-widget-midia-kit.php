@@ -57,6 +57,13 @@ class VB_MK_Widget_Midia_Kit extends \Elementor\Widget_Base {
 	}
 
 	/**
+	 * @return array
+	 */
+	public function get_script_depends() {
+		return array( 'vb-mk-front' );
+	}
+
+	/**
 	 * Controles.
 	 */
 	protected function register_controls() {
@@ -82,7 +89,7 @@ class VB_MK_Widget_Midia_Kit extends \Elementor\Widget_Base {
 			array(
 				'label'     => __( 'Eyebrow', 'valle-branco-midia-kit' ),
 				'type'      => \Elementor\Controls_Manager::TEXT,
-				'default'   => __( 'Imprensa', 'valle-branco-midia-kit' ),
+				'default'   => __( 'Downloads', 'valle-branco-midia-kit' ),
 				'condition' => array( 'show_heading' => 'yes' ),
 			)
 		);
@@ -92,7 +99,7 @@ class VB_MK_Widget_Midia_Kit extends \Elementor\Widget_Base {
 			array(
 				'label'     => __( 'Título', 'valle-branco-midia-kit' ),
 				'type'      => \Elementor\Controls_Manager::TEXT,
-				'default'   => __( 'Mídia Kit', 'valle-branco-midia-kit' ),
+				'default'   => __( 'Imagens dos produtos', 'valle-branco-midia-kit' ),
 				'condition' => array( 'show_heading' => 'yes' ),
 			)
 		);
@@ -102,7 +109,7 @@ class VB_MK_Widget_Midia_Kit extends \Elementor\Widget_Base {
 			array(
 				'label'     => __( 'Subtítulo', 'valle-branco-midia-kit' ),
 				'type'      => \Elementor\Controls_Manager::TEXTAREA,
-				'default'   => __( 'Baixe as imagens dos nossos produtos para uso em matérias e divulgações.', 'valle-branco-midia-kit' ),
+				'default'   => __( 'Selecione a marca e baixe a imagem da embalagem em alta resolução.', 'valle-branco-midia-kit' ),
 				'condition' => array( 'show_heading' => 'yes' ),
 			)
 		);

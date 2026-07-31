@@ -44,9 +44,9 @@ class VB_MK_Shortcode {
 
 		return VB_MK_Frontend::render(
 			array(
-				'heading'      => $atts['titulo'] ? $atts['titulo'] : __( 'Mídia Kit', 'valle-branco-midia-kit' ),
-				'subtitle'     => $atts['subtitulo'] ? $atts['subtitulo'] : __( 'Baixe as imagens dos nossos produtos para uso em matérias e divulgações.', 'valle-branco-midia-kit' ),
-				'eyebrow'      => $atts['eyebrow'] ? $atts['eyebrow'] : __( 'Imprensa', 'valle-branco-midia-kit' ),
+				'heading'      => $atts['titulo'] ? $atts['titulo'] : __( 'Imagens dos produtos', 'valle-branco-midia-kit' ),
+				'subtitle'     => $atts['subtitulo'] ? $atts['subtitulo'] : __( 'Selecione a marca e baixe a imagem da embalagem em alta resolução.', 'valle-branco-midia-kit' ),
+				'eyebrow'      => $atts['eyebrow'] ? $atts['eyebrow'] : __( 'Downloads', 'valle-branco-midia-kit' ),
 				'columns'      => (int) $atts['colunas'],
 				'download'     => (bool) (int) $atts['download'],
 				'show_heading' => (bool) (int) $atts['mostrar_titulo'],
